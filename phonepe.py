@@ -8,6 +8,7 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 import urllib
 import requests
+from git.repo.base import Repo
 
 # Setting up page configuration
 icon = Image.open("C:/Users/deepa/OneDrive/Desktop/download.jpeg")
@@ -20,6 +21,10 @@ st.set_page_config(
                             Data has been cloned from Phonepe Pulse Github Repo"""})
 
 st.sidebar.header(":violet[**Hi! Welcome to the dashboard phonepe pulse**]")
+
+# #To clone the Github Pulse repository use the following code
+# Reference Syntax - Repo.clone_from("Clone Url", "Your working directory")
+# Repo.clone_from("https://github.com/PhonePe/pulse.git", "Project_3_PhonepePulse/Phonepe_data/data")
 
 # Creating connection with MySQL workbench
 mydb = sql.connect(host="HOST_NAME",
