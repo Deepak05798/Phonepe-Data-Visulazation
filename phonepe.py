@@ -22,10 +22,10 @@ st.set_page_config(
 st.sidebar.header(":violet[**Hi! Welcome to the dashboard phonepe pulse**]")
 
 # Creating connection with MySQL workbench
-mydb = sql.connect(host="127.0.0.1",
-                   user="root",
-                   password="12345",
-                   database="phonepe")
+mydb = sql.connect(host="HOST_NAME",
+                   user="USER_NAME",
+                   password="YOUR_PASSWORD",
+                   database="YOUR_DATABASE")
 mycursor = mydb.cursor(buffered=True)
 
 # Creating option menu in the sidebar
