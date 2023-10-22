@@ -1,7 +1,8 @@
 # Phonepe-Data-Visulazation
  In this project i have done dashbord regarding Phonepe Data of top 10 states, district, pincode, brand has the most number of users, total transaction amount , total transaction count and users appoppens frequency with intreactive Visualizations such as bar-chart , pie- chart and Geographical map 
 
- # Demo video link - https://drive.google.com/file/d/1VMo3TuKCAfPTg2wTfhEPUJZBLnin3PS6/view?usp=share_link
+ Demo video link - https://drive.google.com/file/d/1VMo3TuKCAfPTg2wTfhEPUJZBLnin3PS6/view?usp=share_link
+ 
  # Modules and libraries used in this project
  1. Plotly- used to ploting and visualizing the Data
  2. streamlit - dashbord
